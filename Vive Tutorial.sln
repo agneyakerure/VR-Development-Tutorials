@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive Tutorial", "Assembly-CSharp.csproj", "{15FA1B13-6558-3C8F-12EC-77108A3C5CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive Tutorial", "Assembly-CSharp-Editor.csproj", "{580BF2AA-5DEC-1F2C-355A-4A877D2A6FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FA1B13-6558-3C8F-12EC-77108A3C5CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FA1B13-6558-3C8F-12EC-77108A3C5CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FA1B13-6558-3C8F-12EC-77108A3C5CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FA1B13-6558-3C8F-12EC-77108A3C5CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580BF2AA-5DEC-1F2C-355A-4A877D2A6FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580BF2AA-5DEC-1F2C-355A-4A877D2A6FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580BF2AA-5DEC-1F2C-355A-4A877D2A6FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580BF2AA-5DEC-1F2C-355A-4A877D2A6FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
