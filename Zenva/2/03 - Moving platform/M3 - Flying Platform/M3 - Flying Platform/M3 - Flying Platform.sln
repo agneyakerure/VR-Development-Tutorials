@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3 - Flying Platform", "M3 - Flying Platform.csproj", "{448ACDB2-E893-D509-DE81-7C1814DD01AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{448ACDB2-E893-D509-DE81-7C1814DD01AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448ACDB2-E893-D509-DE81-7C1814DD01AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448ACDB2-E893-D509-DE81-7C1814DD01AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448ACDB2-E893-D509-DE81-7C1814DD01AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
