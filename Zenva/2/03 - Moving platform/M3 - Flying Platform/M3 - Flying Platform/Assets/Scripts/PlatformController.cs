@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class PlatformController : MonoBehaviour {
 
-    // movement target
-    public Transform target;
+
+    //destinations
+    public Transform[] targets;
 
     // speed
     public float speed = 1;
@@ -14,9 +15,13 @@ public class PlatformController : MonoBehaviour {
     // flag that sets whether we are moving or not
     bool isMoving = false;
 
+    int nextIndex;
+
 	// Use this for initialization
 	void Start () {
+        transform.position = targets[0].position;
 
+        nextIndex = 1;
     }
 
     // Update is called once per frame
@@ -46,7 +51,7 @@ public class PlatformController : MonoBehaviour {
         if (!isMoving) return;
 
         // calculate the distance from target
-        float distance = Vector3.Distance(transform.position, target.position);
+        float distance = Vector3.Distance(transform.position, targets[nextIndex].position);
 
         // have we arrived?
         if (distance > 0)
@@ -56,7 +61,18 @@ public class PlatformController : MonoBehaviour {
             float step = speed * Time.deltaTime;
 
             // move by that step
-            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+            transform.position = Vector3.MoveTowards(transform.position, targets[nextIndex].position, step);
+        }
+        else
+        {
+            nextIndex++;
+
+            if(nextIndex == targets.Length)
+            {
+                nextIndex = 0;
+            }
+
+            isMoving = false;
         }
     }
 }
